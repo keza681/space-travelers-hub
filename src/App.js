@@ -1,16 +1,16 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Nav from './components/Header/Nav';
-import Missions from './components/HomeRocket/HomeRocket';
-import Rockets from './components/RocketList';
-import MyProfile from './components/MyProfile';
+import MissionList from './components/Missions/Missions';
+import RocketList from './components/HomeRocket/HomeRocketList';
+import Myprofile from './components/HomeRocket/MyProfile';
 
 const App = () => (
   <BrowserRouter>
     <Nav />
     <Routes>
-      <Route exact path="/" element={<Rockets />} />
-      <Route path="/missions" element={<Missions />} />
-      <Route path="/myprofile" element={<MyProfile />} />
+      <Route exact path="/" element={<RocketList />} />
+      <Route path="/missions" element={<MissionList />} />
+      <Route path="/myprofile" element={<Myprofile />} />
     </Routes>
   </BrowserRouter>
 );
