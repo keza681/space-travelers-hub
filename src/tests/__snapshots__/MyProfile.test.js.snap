@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile Component  Should renders the profile page succefully 1`] = `
+<div
+  className="wrapper_profile"
+>
+  <div
+    className="profile"
+  >
+    <h3>
+      My Rockets
+    </h3>
+    <ul
+      className="list"
+    />
+  </div>
+  <div
+    className="profile"
+  >
+    <h3>
+      My Missions
+    </h3>
+    <ul
+      className="list"
+    />
+  </div>
+</div>
+`;
