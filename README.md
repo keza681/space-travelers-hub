@@ -4,7 +4,7 @@
 ## Built With
 
 - React, 
-- Redux, 
+- Redux,
 - CSS3
 
 Major language
