@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0 2rem 0;
+}
+
+.rockets {
+  padding: 0 30px;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+
+.nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  border-bottom: 1px solid rgb(143, 143, 143);
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+.myNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  color: #a4a7af;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+a:hover {
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.image {
+  cursor: pointer;
+  height: 100%;
+}
+
+.details {
+  padding-left: 10px;
+}
+
+.rocketImage {
+  width: 280px;
+  height: 250px;
+  padding: 10px 20px;
+}
+
+.miss-table {
+  font-family: 'Montserrat', sans-serif;
+  width: 95%;
+  margin: 2rem auto;
+}
+
+small {
+  background-color: #33a5ad;
+  color: #fff;
+  font-size: 15px;
+  margin-right: 5px;
+  border-radius: 10%;
+  padding: 2px;
+}
+
+.first-col {
+  padding: 1rem;
+  text-align: left;
+  font-size: 24px;
+}
+
+.second-col {
+  padding: 2rem 1rem;
+  font-size: 20px;
+  text-align: left;
+  line-height: 2;
+}
+
+.third-col {
+  text-align: center;
+  font-size: 20px;
+  width: 100px;
+  padding: 0 7px;
+}
+
+.member {
+  background-color: rgb(22, 157, 190);
+  border-radius: 10px;
+  padding: 5px 3px;
+  color: white;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.not-member {
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: gray;
+  padding: 2px 3px;
+}
+
+.Joined {
+  background-color: gray;
+  border-radius: 10px;
+  padding: 3px 8px;
+  color: white;
+}
+
+.fourth-col {
+  text-align: center;
+  padding: 1rem;
+}
+
+table,
+td,
+tr {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background: rgb(219, 216, 216);
+}
+
+.wrapper_profile {
+  display: flex;
+  justify-content: center;
+}
+
+.myLogo {
+  padding-right: 20px;
+}
+
+.profile {
+  margin: 20px;
+}
+
+.list li {
+  border: 1px solid gray;
+  width: 15rem;
+  padding: 15px 25px;
+}
+
+.active {
+  text-decoration: underline;
+  color: black;
+}
+
+button {
+  background-color: #0290ff;
+  color: #fff;
+  border: 1px solid #0290ff;
+  border-radius: 5%;
+  padding: 0.5rem;
+}
+
+.reservedButton {
+  background-color: #fff;
+  color: #0290ff;
+}
