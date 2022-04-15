@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { HashRouter as Router } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import store from '../Redux/configureStore';
+import store from '../Redux/ConfigureStore';
 import Nav from '../components/Header/Nav';
 
 describe('Header containing the Navbar Component', () => {
