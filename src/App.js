@@ -3,6 +3,7 @@ import Nav from './components/Header/Nav';
 import MissionList from './components/Missions/Missions';
 import RocketList from './components/HomeRocket/HomeRocketList';
 import Myprofile from './components/HomeRocket/MyProfile';
+import './styles/style.css';
 
 const App = () => (
   <BrowserRouter>
