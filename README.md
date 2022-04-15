@@ -27,9 +27,9 @@ By running this project loccally, you will be required to have:
 - VSCode, node installed
 - Clone the app by running `git clone https://github.com/keza681/space-travelers-hub.git `
 - Few knowledge about Node package module(npm) to start the app.
-- Run `npm install` to install automatically the dependencies.
-- Run `npm start` after installing dependencies in order to run the app
-- Run `npm test` to test the project rendenring components.
+- Run `yarn install` to install automatically the dependencies.
+- Run `yarn start` after installing dependencies in order to run the app
+- Run `yarn test` to test the project rendenring components.
 
 ## Authors
 
